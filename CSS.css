@@ -1,0 +1,90 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font and background */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Navigation styles */
+  nav {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #473939;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #312c2c;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button styles */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d60000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #d71010;
+  }
+  
+  /* Image styles */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+    nav {
+      margin: 10px 0;
+    }
+    nav a {
+      padding: 8px 16px;
+      margin: 0 8px;
+    }
+    section {
+      padding: 10px;
+      margin: 10px;
+    }
+  }
